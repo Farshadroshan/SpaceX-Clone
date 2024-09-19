@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+nav{
+    width: 100vw;
+    height: 60px;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: white;
+    z-index: 2;
+    
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    font-size: 15px;
+    gap: 30px;
+    position: absolute;
+    margin-right: 0px;
+     
+     
+}
+.content ul{
+     
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    right: 10px;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    width: 250px;
+    height: 100px;
+    filter: brightness(0)invert(1);
+    position: absolute;
+    left: 20px;
+}
+.icon{
+    width: 50px;
+    height: 20px;
+    position: absolute;
+    right: 50px;
+    margin-right: 40px;
+    font-weight: 600;
+    z-index: 1;
+}
+.content ul li{
+    font-weight: 600;
+}
+
+
+/* main page */
+
+
+main {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(Image/PD_Splashdown_Crew_20240915_DSC_02307_Desktop_412628ab0e.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    position: relative;
+    bottom: 60px;
+    align-items: center;
+    color:white;
+    z-index: 1;
+}
+.main-fist-hedding{
+    
+    position: absolute;
+    left: 100px;
+    bottom: 200px;
+    
+}
+.main-second-hedding{
+    
+    position: absolute;
+    left: 100px;
+    bottom: 150px;
+}
+.main-button-div{
+    position: absolute;
+    left: 100px;
+    bottom: 140px;
+}
+.main-button-div button{
+    width: 160px;
+    height: 50px;
+    position: absolute;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    border-style: double;
+    font-weight: 700;
+}
+.main-fist-hedding h3{
+    font-size: 20px;
+}
+.main-second-hedding h1{
+    font-size: 40px;
+}
+.page2 {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(Image/Galileo_L13_pad39a_DSC_2766_1_f9615c357e.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    position: relative;
+    bottom: 60px;
+    align-items: center;
+    color:white;
+    z-index: 1;
+}
+.page3 {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(Image/Bluebird_1_presssite_DSC_2722_desktop_6e56ac8d35.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    position: relative;
+    bottom: 60px;
+    align-items: center;
+    color:white;
+    z-index: 1;
+}
+
+
+.page4 {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(Image/Starlink_G9_6_SW_Hill_Horiz_0410_Desktop_71fe7c1c14.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    position: relative;
+    bottom: 60px;
+    align-items: center;
+    color:white;
+    z-index: 1;
+}
+
+.page5 {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(Image/Eva_Suit_Desktop_alternate_1cf9bae18e.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    position: relative;
+    bottom: 60px;
+    align-items: center;
+    color:white;
+    z-index: 1;
+}
+
+.page6 {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(Image/make_life_multiplanetary_desktop_3fa7cff73c.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    position: relative;
+    bottom: 60px;
+    align-items: center;
+    color:white;
+    z-index: 1;
+}
+
+footer{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    background-color:black;
+    align-items: center;
+    text-align: center;
+    margin-top: -60px;
+    
+}
+.footer-content{
+    width: 50%; 
+    color: white;
+     margin-top: 30px;
+}
+.footer-content ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 50px;
+}
+.footer-content ul li{
+    font-weight: 600;
+    font-size: 11px;
+     
+}
